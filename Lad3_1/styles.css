@@ -1,0 +1,76 @@
+nav .menu{
+    height: 45px;
+    background-color: #eeeeee;
+    border-left: 5px solid  #8b0000;
+    border-bottom: 2px solid  #8b0000;
+}
+ .menu li{
+list-style-type: none;
+
+}
+.menu li a,span{
+   text-decoration: none;
+   color: black;
+   font-weight: 600;
+    
+    }
+.container .menu .item{
+    padding-right: 1rem;    
+    padding-left: 1rem; 
+}
+nav .menu .item:hover {
+    background-color: #8b0000;
+    
+    cursor: pointer;
+}
+.container .menu .item:hover a,nav .menu .item:hover span {
+    color: white;
+}
+
+nav .menu .dr_menu .sub-item:hover{
+    background-color: #8b0000;
+    
+}
+nav .menu .dr_menu .sub-item:hover a{
+    
+    color: #d0cfcf;
+    
+}
+
+nav .menu .item .dr_menu {
+    background: #eeeeee;
+    position: absolute;
+    margin-left: -16px;
+    margin-top: 11px;
+    width: 170px;
+    
+    display: none;
+    
+}
+nav .menu .item .dr_menu  .sub-item a {
+    color: black;
+    
+}
+
+nav .menu .item .dr_menu .item {
+ width: 170px;
+ height: 30px;
+    
+}
+
+/* nav .menu .item .dr_menu:hover {
+    background-color: #8b0000;
+    
+    cursor: pointer;
+} */
+nav .menu .item:hover .dr_menu{
+    display: block;
+}
+nav .dr_menu .sub-item{
+    border-bottom: 2px solid #d0cfcf;
+}
+nav .dr_menu .sub-item:first-of-type {
+    border-top: 2px solid #8b0000;
+}
+
+
